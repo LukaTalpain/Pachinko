@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -14,6 +15,8 @@ public class GoalManager : MonoBehaviour
     public GameObject WinMessage;
     public GameObject LooseMessage;
 
+    public static int TotalBall;
+
     private void Start()
     {
         WinMessage.SetActive(false);
@@ -27,7 +30,7 @@ public class GoalManager : MonoBehaviour
     {
         
         Goaltext.text = "Goal : " + Goal;
-        if (gameManager.Try == 0 )
+        if (gameManager.Try == 0 && TotalBall == 0)
         {
             LooseMessage.SetActive(true);
             Time.timeScale = 0;

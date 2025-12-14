@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa314f77f46331841a811843c6c2bda6, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
-  StartingNumberOfBalls: 20
+  StartingNumberOfBalls: 15
   Slot0_5: 5
   Slot1_4: 10
   Slot2_3: 25
   BonusOriginalValue: 2
-  GoalsList: fa00000058020000e8030000aa05000008070000c4090000
+  GoalsList: 2c0100005802000078050000d0070000f00a000050c30000
